@@ -14,7 +14,7 @@ def key_for_min_value(name_hash)
         minVal = val
       end
     end
-    return name_hash
+    return minKey
   end
 
 end
