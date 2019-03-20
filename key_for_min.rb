@@ -5,8 +5,9 @@ def key_for_min_value(name_hash)
   if name_hash == nil
     return nil
   else
-    minKey = name_hash.first[]
-    minVal = name_hash.first[]
+    minKey = name_hash.first[0]
+    minVal = name_hash.first[1]
+    
     name_hash.collect do |item, val|
       
   end
